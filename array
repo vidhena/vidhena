@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int noe;
+    scanf("%d",&noe);
+    int arr[noe];
+    for(int index=0;index<noe;index++)
+    scanf("%d",&arr[index]);
+    for(int index=noe-1;index>=0;index--)
+     printf("%d",arr[index]);
+
+    return 0;
+}
